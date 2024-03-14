@@ -1,1 +1,1 @@
-STDOUT should be treated as a critical resource. But I do not do that in some cases. You will see some weird output because of reace condition. For example, in a reader-writer problem, multiple readers will compete with each other to print to STDOUT to show they are reading. 
+STDOUT should be treated as a critical resource. But I do not do that in some cases. You will see some weird output because of race condition. For example, in a reader-writer problem, multiple readers will compete with each other to print to STDOUT to show they are reading. 
